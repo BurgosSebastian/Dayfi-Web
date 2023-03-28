@@ -1,0 +1,99 @@
+<head>
+    <title>ClonDaysi</title>
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <meta charset="utf-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js" ></script>
+</head>
+<body>
+    <section class="cont-principal">
+        <div class="cont-img">
+            <img class="imgnight" src="assets/Hero black gif-min.gif" alt="">
+            <img src="assets/Hero Cream gif-min.gif" alt="">
+        </div>
+        <div class="cont-header">
+            <img class="imglogo" src="assets/Logo/logonegromejorado.png" alt="">
+            <img class="imgmodo" src="assets/noche.svg" alt="">
+        </div>
+        <div class="cont-texto">
+            <h1 class="text">Buy Now Pay Later</h1>
+            <h2 class="text">Infraestructure for web 3</h2>
+            <p class="parra">Integrate our APIs into your NFT marketplace, blockchain game, or creator platform and offer seamless payment options for your users.</p>
+            <div class="cont-botones">
+                <a href="dayfiDocumentation.html"><button>Start Building</button></a>
+            </div>
+        </div>
+    </section>
+    <div class="container">
+        <h2 class="text-center font-weight-bold">Dayfi ecosystem partners</h2>
+        <section class="customer-logos slider">
+            <div class="slide"><img src="assets/Partners Logo/1.png" alt=""></div>
+            <div class="slide"><img src="assets/Partners Logo/2.png" alt=""></div>
+            <div class="slide"><img src="assets/Partners Logo/3.png" alt=""></div>
+            <div class="slide"><img src="assets/Partners Logo/4.png" alt=""></div>
+            <div class="slide"><img src="assets/Partners Logo/5.png" alt=""></div>
+            <div class="slide"><img src="assets/Partners Logo/6.png" alt=""></div>
+            <div class="slide"><img src="assets/Partners Logo/7.png" alt=""></div>
+            <div class="slide"><img src="assets/Partners Logo/8.png" alt=""></div>
+        </section>
+    </div>
+    <section class="secundario">
+        <div class="cont-float">
+            <div class="float-text">
+                <h3>Subscribe to our newsletter!</h3>
+                <h4>Stay updated on the changes we bring to Web 3</h4>
+            </div>
+            <div class="input-float">
+                <input class="inputtest" placeholder="someoneexample@gmail.com"  type="text">
+            </div>
+        </div>
+    </section>
+    <section class="terciario">
+        <div class="cont-titulo">
+            <p>Creed : Decentralization : Privacy : Freedom : Sovereignty</p>
+        </div>
+    </section>
+    <section class="cuarto">
+        <div class="cont-links">
+            <ul>
+                <a class="links" href="form.html"><li>Partner with us</li></a>
+                <a class="links" href="dayfiDocumentation.html"><li>For developers</li></a>
+                <a class="links" href="dayfiDocumentation5.html"><li>Docs & Roadmap</li></a>
+                <a class="links" href="https://drive.google.com/drive/folders/1fQOhUD4zYJqCG_bf2q4-y9mXMuMJZ29S"><li>Brand guidelines/Media kit</li></a>
+                <a class="links" href="dayfiDocumentation8.html"><li>FAQ</li></a>
+            </ul>
+        </div>
+        <div class="cont-logos">
+            <img class="logos" src="assets/twiter.png">
+            <img class="logos" src="assets/twiter.png">
+            <img class="logos" src="assets/twiter.png">
+        </div>
+    </section>
+
+    <script>
+       $(document).ready(function(){
+            $(".customer-logos").slick({
+                slidesToShow: 6,
+                slidesToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 2500,
+                arrows: false,
+                dots: false,
+                pauseOnHover: false,
+                responsive: [{
+                    breakpoint: 768,
+                    setting: {
+                        slidesToShow: 4,
+                    }
+                },{
+                    breakpoint: 520,
+                    setting: {
+                        slidesToShow: 3
+                    }
+                }]
+            });
+       });
+    </script>
+    <script src="home.js"></script>
+</body>

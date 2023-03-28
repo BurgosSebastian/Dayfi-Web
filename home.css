@@ -1,0 +1,271 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.cont-principal{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    width: 100hv;
+    height: 100vh;
+}
+
+.cont-img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.cont-img img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.displayon{
+    z-index: 20;
+}
+
+.cont-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 50px;
+    z-index: 100;
+    width: 100%;
+    height: 15%;
+}
+
+.cont-header .imglogo{
+    width: 150px;
+    height: 50px;
+}
+
+.cont-header .imgmodo{
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.cont-texto{
+    display: flex;
+    flex-direction: column;
+    z-index: 100;
+    justify-content:center;
+    width: 50%;
+    height: 70%;
+    padding: 0px 40px;
+}
+
+.cont-texto h1{
+    color: black;
+    font-size: 60px;
+}
+.cont-texto h2{
+    color: black;
+    font-size: 40px;
+}
+
+.cont-texto p{
+    color: rgb(104, 69, 48);
+    font-size: 20px;
+}
+
+.cont-botones button{
+    padding: 15px 40px;
+    border: 1px solid rgb(245, 195, 139);
+    border-radius: 30px;
+    background-color: rgb(245, 195, 139);
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+.cont-botones button:hover{
+    background-color: black;
+    color: rgb(245, 195, 139);
+}
+
+.container{
+    padding-top: 150px;
+}
+
+.slick-slide{
+    margin: 0 20px;
+}
+
+.slick-slide img{
+    width: 100%
+}
+
+.slick-slider{
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+}
+
+.slick-list{
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.slick-track{
+    position: relative;
+    top: 0;
+    left: 0;
+    display: block;
+}
+
+.slick-slide{
+    display: none;
+    float: left;
+    height: 300px;
+    min-height: 1px;
+}
+
+.slick-slide img{
+    display: block;
+}
+
+.slick-initialized .slick-slide{
+    display: block;
+}
+
+.copy{
+    padding-top: 250px;
+}
+
+.terciario{
+    display: flex;
+    width: 100%;
+    height: 330px;
+    background-color: black;
+    justify-content: center;
+}
+
+.cont-titulo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 150px;
+    padding-bottom: 80px;
+    width: 70%;
+    height: fit-content;
+    border-bottom: solid 1px white;
+}
+
+.cont-titulo p {
+    font-size: 20px;
+    color: white;
+}
+
+.cuarto{
+    background-color: black;
+    text-align: center;
+}
+
+.cont-links{
+    display: flex;
+    justify-content: center;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+}
+
+li{
+    color: white;
+    padding: 10px 10px;
+    font-size: 15px;
+}
+
+.cont-logos{
+    padding: 100px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logos{
+    padding: 0px 10px;
+    height: 60px;
+}
+
+.secundario{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 0;
+}
+
+.cont-float{
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100px;
+    width: 60%;
+    left: auto;
+    right: auto;
+    background-color: rgb(70,70,70);
+    border-radius: 20px;
+}
+
+.float-text{
+    display: block;
+}
+
+.float-text h3{
+    color: rgb(230, 220, 210);
+    font-size: 22px;
+}
+.float-text h4{
+    color: rgb(245, 195, 139);
+    font-size: 11px;
+}
+
+.inputtest{
+    background-color: rgb(50,50,50);
+    border: 1px solid white;
+    width: 250px;
+    height: 40%;
+    border-radius: 10px;
+    text-align: center;
+
+}
+
+.cont-header{
+    display: flex;
+    width: 100%;
+}
+
+.header{
+    width: 100%;
+    top: -5%;
+    padding: 0 8% ;
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .img1 {
+    width: 170px;
+    z-index: 900;
+}
+
+.header .img2 {
+    width: 50px;
+    height: 50px;
+    z-index: 900;
+}
+
+.links:hover{
+    color: white;
+}

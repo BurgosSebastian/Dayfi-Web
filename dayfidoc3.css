@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 70px;
+}
+
+.cont-nav{
+    display: flex;
+    position: fixed;
+    width: 100%;
+    height: 70px;
+    justify-content: space-between;
+    background-color: black;
+    align-items: center;
+}
+
+.logo-nav{
+    display: flex;
+    align-items: center;
+}
+
+.logo-nav h2{
+    color: white;
+    font-size: 20px;
+    margin: 0px 20px;
+}
+
+.logo-nav img {
+    width: 60px;
+    height: 60px;
+}
+
+.pest ul{
+    display: flex;
+}
+
+.pest li{
+    display: flex;
+    color: white;
+    font-size: 20px;
+    margin: 20px;
+}
+
+.pest{
+    display: flex;
+    margin: 10px 30px;
+    align-items: center;
+}
+
+input{
+    height: 25px;
+    text-align: center;
+    font-size: 15px;
+    background-color: black;
+    border: none;
+}
+
+input::placeholder{
+    color: white;
+    font-size: 20px;
+}
+
+.cont-page{
+    display: flex;
+    width: 100%;
+    height: 90%;
+}
+
+.cont-columna{
+    display: flex;
+    position: relative;
+    width: 25%;
+    height: 100%;
+}
+
+.colum{
+    display: block;
+    height: 100%;
+    padding: 20px 40px;
+    position:fixed;
+}
+
+.colum h3 {
+    color: black;
+    font-size: 16px;
+    margin: 5px 0px;
+}
+
+.colum h4 {
+    color: rgb(90, 90, 90);
+    font-size: 16px;
+    margin: 10px 0px;
+}
+
+.cont-page h5{
+    color: grey;
+    font-size: 22px;
+    margin: 10px 0px;
+}
+
+.body{
+    width: 100%;
+    height: 100%;
+}
+
+ol{
+    list-style-position: inside;
+}
+
+.colum li{
+   color:black;
+   font-size: 17px;
+   margin: 15px 0px;
+   padding: 0px 20px;
+   list-style: none;
+}
+
+ul{
+    list-style:inside;
+}
+
+li{
+    color:black;
+    font-size: 17px;
+    margin: 15px 0px;
+ }
+
+.cont-img{
+    display: flex;
+    width: 100%;
+    height: 250px;
+}
+
+.cont-img img {
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+
+.cont-texto{
+    width: fit-content;
+    height: auto;
+    padding: 20px 80px;
+}
+
+.cont-texto h3{
+    font-size: 40px;
+    margin: 15px 0px ;
+    width: 100%;
+}
+
+.cont-texto h2 {
+    font-size: 25px;
+    margin: 15px 0px;
+}
+
+.cont-texto p {
+    font-size: 18px;
+    margin: 20px 0px;
+}
+
+.plinea{
+    padding-left: 15px;
+    border-left: 3px solid rgb(200,200,200);
+}
+
+.cont-texto h4 {
+    font-size: 20px;
+}
+
+.prev{
+    display: flex;
+    width: 100%;
+    height: 60px;
+    border: 1px solid rgb(220,220,220);
+    padding: 10px 20px;
+    align-items: center;
+    margin: 0px 10px ;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.prev h5{
+    font-size: 40px;
+}
+
+.next{
+    display: flex;
+    width: 100%;
+    height: 60px;
+    border: 1px solid rgb(220,220,220);
+    padding: 10px 20px;
+    align-items: center;
+    margin: 0px 10px ;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.next-text h3 {
+    font-size: 15px;
+    margin: 0;
+    color: rgb(180,180,150);
+}
+
+.next h5{
+    font-size: 40px;
+}
+
+.buttons{
+    display: flex;
+    width: 100%;
+}
+
+.cont-img{
+    width: 100%;
+    height: auto;
+}
+
+img{
+    width: auto;
+    height: auto;
+}
+a{
+    text-decoration: none;
+}
